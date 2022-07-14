@@ -1,0 +1,58 @@
+html{
+    box-sizing:border-box;
+    font-size: 10px;
+  }
+
+  *,*::before,*::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FCFEFF;
+    width: auto;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* 上面是一些方便排版的設定，除了背景顏色其他盡量不要改 */
+
+/* 我習慣把設定文字的 class 集中一區 */
+
+.text_title{
+    color: #594934;
+}
+
+
+/* banner 區 */
+
+
+/* main 區 */
+
+.container{     /*  每個大區塊都共用這個 class */
+    width: 100%;
+    min-height: 90vh;       /* 為了讓區塊顯示出來的設定，之後可以刪掉 */
+}
+
+    /* about 區 */
+
+    /* animate 區 */
+
+.animate_container{
+    background-color: #D8E7EF;
+}
+
+
+    /* arduino 區 */
+
+/* footer 區 */
+
+footer{
+    background-color: #6C818C;
+    width: 100%;
+}
